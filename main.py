@@ -44,8 +44,6 @@ def randompasscheck():
 while True:
     try:
         randompasscheck()
-        randompasscheck()
-        randompasscheck()
-        #time.sleep(0.1)
+        time.sleep(0.1)
     except KeyboardInterrupt:
         exit(0)
